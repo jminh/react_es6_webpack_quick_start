@@ -1,0 +1,11 @@
+{
+  "name": "react_demo_es6_webpack",
+  "version": "1.0.0",
+  "description": "npm init -y #+END_SRC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
