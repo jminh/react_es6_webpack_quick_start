@@ -1,0 +1,34 @@
+
+#+BEGIN_SRC sh
+npm init -y
+#+END_SRC
+
+#+BEGIN_SRC sh
+npm install --save-dev webpack
+npm install --save-dev babel-cli
+npm install --save-dev babel-preset-es2015
+npm install --save-dev babel-preset-react
+#+END_SRC
+
+#+BEGIN_SRC sh
+npm install babel-loader
+#+END_SRC
+
+react react-dom
+
+#+BEGIN_SRC sh
+npm install --save react react-dom
+#+END_SRC
+
+* Develop
+
+#+BEGIN_SRC sh
+python -m SimpleHTTPServer # python2
+python -m http.server # python3
+
+firefox app/index.html
+#+END_SRC
+
+#+BEGIN_SRC sh
+./node_modules/.bin/webpack --watch
+#+END_SRC
